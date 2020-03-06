@@ -1,0 +1,25 @@
+var words = ['ninja', 'samurai','', 'ronin'];
+var arrayNew = [];
+words.forEach(newWord => {if(newWord.length > 0){arrayNew.push(newWord);}});
+var res = '';
+
+
+var res = arrayNew.forEach(word => {arrayNew.length < 1 ? '' : indexOf(word) == 0 ? word : indexOf(word) == (arrayNew.length - 2) ? 'and' : res + word});;
+
+/*if(arrayNew.length > 0){
+	return res;
+} else {
+	return '';
+}*/
+
+console.log(arrayNew);
+console.log(res);
+
+
+/*var a = words.map(function (word){
+//     if(word =! '') {
+         return word;
+//     }
+    });
+*/
+//print(a);
